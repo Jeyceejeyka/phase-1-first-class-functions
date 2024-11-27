@@ -1,11 +1,11 @@
 function receivesAFunction(callback) {
-    callback(); // Calls the passed function
+    callback(); 
 }
 function returnsANamedFunction() {
     function namedFunction() {
         return "I am a named function!";
     }
-    return namedFunction; // Returns the named function
+    return namedFunction; 
 }
 function returnsAnAnonymousFunction() {
     return function () {
@@ -28,4 +28,3 @@ function returnsAnAnonymousFunction() {
         return "I am an anonymous function!";
     };
 }
-
